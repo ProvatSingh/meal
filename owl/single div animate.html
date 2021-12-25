@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- head -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>
+      Animate Demo | Owl Carousel | 2.3.4
+    </title>
+    <link rel="stylesheet" href="docs.theme.min.css">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+
+
+    <!-- javascript -->
+    <!--<script src="jquery.min.js"></script>-->
+    <script src="owl.carousel.js"></script>
+  </head>
+  <body>
+
+
+
+
+    <!--  Demos -->
+    <section id="demos">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="fadeOut owl-carousel owl-theme">
+            <div class="item">
+              <h4>1</h4>
+            </div>
+            <div class="item">
+              <h4>2</h4>
+            </div>
+            <div class="item">
+              <h4>3</h4>
+            </div>
+            <div class="item">
+              <h4>4</h4>
+            </div>
+            <div class="item">
+              <h4>5</h4>
+            </div>
+            <div class="item">
+              <h4>6</h4>
+            </div>
+            <div class="item">
+              <h4>7</h4>
+            </div>
+            <div class="item">
+              <h4>8</h4>
+            </div>
+            <div class="item">
+              <h4>9</h4>
+            </div>
+            <div class="item">
+              <h4>10</h4>
+            </div>
+            <div class="item">
+              <h4>11</h4>
+            </div>
+            <div class="item">
+              <h4>12</h4>
+            </div>
+          </div>
+          
+       
+         
+        </div>
+      </div>
+    </section>
+
+ <script>
+            jQuery(document).ready(function($) {
+              $('.fadeOut').owlCarousel({
+                items: 1,
+                autoplay:true,
+                animateOut: 'fadeOut',
+                loop: true,
+                margin: 10,
+              });
+              $('.custom1').owlCarousel({
+                animateOut: 'slideOutDown',
+                animateIn: 'flipInX',
+                items: 1,
+                margin: 30,
+                stagePadding: 30,
+                smartSpeed: 450
+              });
+            });
+          </script>
+    <!-- vendors -->
+   
+  </body>
+</html>
