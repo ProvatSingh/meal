@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- ====================== Css file ================== -->
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="css/swiper.css">
+    <link type="text/css" rel="stylesheet" href="css/locomotive.css">
+    <link type="text/css" rel="stylesheet" href="css/fonts.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="body" data-barba="wrapper">
+
+    <div class="loader-wrapper">
+        <h2><span>0</span>%</h2>
+    </div>
+
+    <!-- ============ header Start ============== -->
+    <header class="header">
+        <div class="header-corner">
+            <div class="corner-left"><svg width="101" height="101" viewBox="0 0 101 101" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M101 0H0V101H1C1 45.7715 45.7715 1 101 1V0Z"
+                        fill="white"></path>
+                    <path d="M1 101C1 45.7715 45.7715 1 101 1" stroke="white"></path>
+                </svg>
+            </div>
+            <div class="corner-right"><svg width="101" height="101" viewBox="0 0 101 101" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M101 0H0V101H1C1 45.7715 45.7715 1 101 1V0Z"
+                        fill="white"></path>
+                    <path d="M1 101C1 45.7715 45.7715 1 101 1" stroke="white"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="container-fluid h-100">
+
+            <nav class="navbar d-flex">
+                <a class="navbar-brand" href="index.html">
+                    <svg width="140" height="50" viewBox="0 0 140 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <text x="0" y="18" font-family="Arial" font-size="24" fill="#f5f2ef" font-style="italic"
+                            font-weight="700">Real Estate</text>
+                        <text x="0" y="42" font-family="Arial" font-size="26" fill="#f5f2ef" font-style="italic"
+                            font-weight="700">Specialists</text>
+                    </svg>
+                </a>
+
+                <div class="menu-overlay" id="menu_overlay"></div>
+
+                <div class="collapse-menu" id="collapse_menu">
+                    <div class="mobile-scroll">
+                        <div class="primary-nav non-default-ul">
+                            <ul id="myUL" class="navbar-nav">
+                                <li><a href="expertise.html"><span>Expertise</span></a></li>
+                                <li><a href="about.html"><span>about</span></a></li>
+                                <li class="active"><a href="team.html"><span>Team</span></a></li>
+                                <li><a href="contact.html"><span>contact</span></a></li>
+                                <!-- <li class="menu-item-has-children dropdown-right-align">
+                                    <a href="javascript:void(0);"><span>News & Updates</span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"></span>News</span></a></li>
+                                        <li><a href="#"></span>Articles</span></a></li>
+                                        <li><a href="single-article.html"></span>meetings</span></a></li>
+                                    </ul>
+                                </li> -->
+                            </ul>
+                        </div>
+
+
+                        <div class="colapse-close" id="colapse_close">
+                            <img src="images/icon-crosse-dark.svg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="search-icon"><span>search</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11 17.5C14.5899 17.5 17.5 14.5899 17.5 11C17.5 7.41015 14.5899 4.5 11 4.5C7.41015 4.5 4.5 7.41015 4.5 11C4.5 14.5899 7.41015 17.5 11 17.5Z"
+                            stroke="#041914"></path>
+                        <path d="M20.4 20.5L15.5 15.7" stroke="#041914"></path>
+                    </svg>
+                </div>
+
+                <div class="hamburger-menu" id="hamburger_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+
+            </nav>
+
+        </div>
+
+    </header>
+    <div class="search-form-wrapper">
+        <div class="container h-100">
+            <form class="search-form">
+                <input class="form-control" type="search" placeholder="Search">
+                <button type="submit"></button>
+            </form>
+        </div>
+        <div class="cancle-icon"></div>
+    </div>
+    <!-- ============ header End ============== -->
+
+    <!-- ============ scroll-container Start ============== -->
+    <div class="scroll-container" data-scroll-container>
+        <div data-barba="container" data-barba-namespace="team">
+            <div class="main-wrapper">
+                <!-- ============ Section Start ============== -->
+                <section class=" common-hero text-center bg-light position-relative">
+                    <div class="line-decoration">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <ol class="breadcrumb ">
+                                    <li class="breadcrumb-item"><a href="index.html"><svg width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.4773 1.33636C11.8196 1.24368 12.1804 1.24368 12.5227 1.33636C12.92 1.44395 13.2546 1.7066 13.5216 1.91623C15.825 3.72462 18.1427 5.51471 20.4562 7.31011C20.8329 7.6024 21.1647 7.8599 21.4119 8.19421C21.6289 8.48759 21.7906 8.8181 21.8889 9.1695C22.001 9.56992 22.0006 9.98993 22.0001 10.4667C21.9975 12.924 22 15.3813 22 17.8386C22 18.3657 22 18.8204 21.9694 19.195C21.9371 19.5904 21.8658 19.9836 21.673 20.362C21.3854 20.9264 20.9264 21.3854 20.362 21.673C19.9836 21.8658 19.5904 21.9371 19.195 21.9694C18.3935 22.0349 17.5805 21.9996 16.7768 22C16.6577 22 16.5155 22.0001 16.3902 21.9899C16.2449 21.978 16.0369 21.9475 15.819 21.8365C15.5368 21.6927 15.3073 21.4632 15.1635 21.181C15.0524 20.963 15.022 20.755 15.0101 20.6098C14.9999 20.4845 14.9999 20.3422 15 20.2231L15.0079 14.6269C15.0087 14.0661 15.009 13.7857 14.9002 13.5715C14.8044 13.3831 14.6514 13.2298 14.4631 13.1338C14.249 13.0246 13.9686 13.0246 13.4079 13.0246H10.608C10.0487 13.0246 9.76904 13.0246 9.55528 13.1334C9.36725 13.2291 9.21431 13.3818 9.11834 13.5697C9.00923 13.7833 9.00883 14.063 9.00803 14.6223L9.00002 20.2231C9.00007 20.3422 9.00012 20.4845 8.98988 20.6098C8.97802 20.755 8.94758 20.963 8.83653 21.181C8.69272 21.4632 8.46325 21.6927 8.181 21.8365C7.96306 21.9475 7.75506 21.978 7.60985 21.9899C7.48453 22.0001 7.34228 22 7.22317 22C6.41948 21.9996 5.60651 22.0349 4.80499 21.9694C4.40964 21.9371 4.01643 21.8658 3.63805 21.673C3.07356 21.3854 2.61462 20.9264 2.327 20.362C2.1342 19.9836 2.06289 19.5904 2.03059 19.195C1.99998 18.8204 2 18.3657 2.00002 17.8385C2.00002 15.3812 2.0026 12.9239 1.99995 10.4667C1.99943 9.98993 1.99898 9.56992 2.11106 9.1695C2.20942 8.8181 2.37107 8.48759 2.58806 8.19421C2.83532 7.85991 3.16713 7.6024 3.54376 7.31012C5.85719 5.51479 8.17512 3.72458 10.4784 1.91623C10.7454 1.7066 11.0799 1.44395 11.4773 1.33636Z"
+                                                    fill="#8F8C79"></path>
+                                            </svg></a></li>
+
+                                    <li class="breadcrumb-item active" aria-current="page">Team</li>
+                                </ol>
+
+                                <h1>Us team </h1>
+                                <p>Our specialists are ready to help you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ============== Section End ============== -->
+
+                <!-- ============ Section Start ============== -->
+                <section class="pt-0  bg-light">
+                    <div class="container">
+                        <div class="row row-gap-60">
+                            <div class="col-sm-6 col-xl-4">
+                                <a href="#" class="team-card">
+                                    <figure>
+                                        <img src="images/team/member-img1.jpg" alt="">
+                                        <figcaption>text</figcaption>
+                                    </figure>
+                                    <div class="team-content">
+                                        <div>
+                                            <h3>heading</h3>
+                                            <p>Partner & Advocaat</p>
+                                        </div>
+                                        <div class="card-hover-icon"><img src="images/icons/arrow-right-sm.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-sm-6 col-xl-4">
+                                <a href="#" class="team-card">
+                                    <figure>
+                                        <img src="images/team/member-img2.jpg" alt="">
+                                        <figcaption>text</figcaption>
+                                    </figure>
+                                    <div class="team-content">
+                                        <div>
+                                            <h3>heading</h3>
+                                            <p>Partner & Advocaat</p>
+                                        </div>
+                                        <div class="card-hover-icon"><img src="images/icons/arrow-right-sm.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-sm-6 col-xl-4">
+                                <a href="#" class="team-card">
+                                    <figure>
+                                        <img src="images/team/member-img3.jpg" alt="">
+                                        <figcaption>text</figcaption>
+                                    </figure>
+                                    <div class="team-content">
+                                        <div>
+                                            <h3>heading</h3>
+                                            <p>Partner & Advocaat</p>
+                                        </div>
+                                        <div class="card-hover-icon"><img src="images/icons/arrow-right-sm.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-sm-6 col-xl-4">
+                                <a href="#" class="team-card">
+                                    <figure>
+                                        <img src="images/team/member-img1.jpg" alt="">
+                                        <figcaption>text</figcaption>
+                                    </figure>
+                                    <div class="team-content">
+                                        <div>
+                                            <h3>heading</h3>
+                                            <p>Partner & Advocaat</p>
+                                        </div>
+                                        <div class="card-hover-icon"><img src="images/icons/arrow-right-sm.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-sm-6 col-xl-4">
+                                <a href="#" class="team-card">
+                                    <figure>
+                                        <img src="images/team/member-img2.jpg" alt="">
+                                        <figcaption>text</figcaption>
+                                    </figure>
+                                    <div class="team-content">
+                                        <div>
+                                            <h3>heading</h3>
+                                            <p>Partner & Advocaat</p>
+                                        </div>
+                                        <div class="card-hover-icon"><img src="images/icons/arrow-right-sm.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-sm-6 col-xl-4">
+                                <a href="#" class="team-card">
+                                    <figure>
+                                        <img src="images/team/member-img3.jpg" alt="">
+                                        <figcaption>text</figcaption>
+                                    </figure>
+                                    <div class="team-content">
+                                        <div>
+                                            <h3>heading</h3>
+                                            <p>Partner & Advocaat</p>
+                                        </div>
+                                        <div class="card-hover-icon"><img src="images/icons/arrow-right-sm.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ============== Section End ============== -->
+
+                <!-- ============ Section Start ============== -->
+                <section class="join-team-banner section-half-cover-img bg-dark section-before-footer">
+                    <div class="container">
+                        <div class="row flex-column-reverse row-gap-60">
+                            <div class="col-lg-6">
+                                <div class="join-team-banner-content">
+                                    <h2 class="h2-lg">Are you our new team member?</h2>
+                                    <p>View our careers page for current vacancies.</p>
+                                    <a href="#" class="btn"><span>Work with us</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <figure class="join-team-banner-content">
+                                    <img src="images/team/team-banner.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ============== Section End ============== -->
+
+            </div>
+            <!-- ============== main-wrapper End ============== -->
+
+            <!-- ============ footer Start ============== -->
+            <footer data-scroll data-scroll-speed="-2" data-scroll-position="bottom">
+
+                <div class="footer-top">
+                    <div class="line-decoration">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="container">
+                        <div class="footer-top-row">
+                            <div class="footer-col order-0 order-xl-0">
+                                <a class="footer-brand" href="index.html">
+                                    <svg width="140" height="50" viewBox="0 0 140 50" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <text x="0" y="18" font-family="Arial" font-size="24" fill="#f5f2ef"
+                                            font-style="italic" font-weight="700">Real Estate</text>
+                                        <text x="0" y="42" font-family="Arial" font-size="26" fill="#f5f2ef"
+                                            font-style="italic" font-weight="700">Specialists</text>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="footer-col order-1 order-xl-1">
+                                <ul class="footer-menulist">
+                                    <li><a href="#">Sitemap</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html"><span>about</span></a></li>
+                                    <li><a href="expertise.html"><span>Expertise</span></a></li>
+                                    <li class="active"><a href="team.html"><span>Team</span></a></li>
+                                    <li><a href="contact.html"><span>contact</span></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-col order-3 order-xl-2">
+                                <ul class="footer-menulist">
+                                    <li><a href="#">Topical</a></li>
+                                    <li><a href="">articles</a></li>
+                                    <li><a href="#">newss</a></li>
+                                    <li><a href="#">meetings</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-col address-list order-2 order-xl-3">
+                                <ul class="footer-menulist ">
+                                    <li><a href="#">address</a></li>
+
+                                    <li class="footer-item">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 22C16 18 20 14.4183 20 10C20 5.58172 16.4183 2 12 2C7.58172 2 4 5.58172 4 10C4 14.4183 8 18 12 22Z"
+                                                stroke="#041914" stroke-width="1.25" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                            </path>
+                                            <path
+                                                d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                                                stroke="#041914" stroke-width="1.25" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                        <span>Euclideslaan 201<br>3584 BS Utrecht</span>
+                                    </li>
+
+                                    <li class="footer-item">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M18.4163 4.66602H5.58301C4.06422 4.66602 2.83301 5.89723 2.83301 7.41602V16.5827C2.83301 18.1015 4.06422 19.3327 5.58301 19.3327H18.4163C19.9351 19.3327 21.1663 18.1015 21.1663 16.5827V7.41602C21.1663 5.89723 19.9351 4.66602 18.4163 4.66602Z"
+                                                stroke="#041914" stroke-width="1.25" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                            </path>
+                                            <path
+                                                d="M6.5752 10.0361L10.3174 12.6557C10.9235 13.08 11.2266 13.2921 11.5562 13.3743C11.8474 13.4469 12.1519 13.4469 12.443 13.3743C12.7726 13.2921 13.0757 13.08 13.6818 12.6557L17.424 10.0361"
+                                                stroke="#041914" stroke-width="1.25" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                        <span>PO Box 85207<br>3508 AE Utrecht</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-col social-list order-4 order-xl-4">
+                                <ul class="footer-menulist">
+                                    <li>Connect</li>
+                                    <li class="footer-social-email">
+                                        <a href="mailto:info@avvr.nl">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M16 12C16 14.209 14.209 16 12 16C9.791 16 8 14.209 8 12C8 9.791 9.791 8 12 8C14.209 8 16 9.791 16 12ZM16 12V13.5C16 14.881 17.119 16 18.5 16C19.881 16 21 14.881 21 13.5V12C21 7.029 16.971 3 12 3C7.029 3 3 7.029 3 12C3 16.971 7.029 21 12 21C13.149 21 14.317 20.782 15.444 20.315C16.052 20.063 16.614 19.747 17.133 19.386"
+                                                    stroke="#041914" stroke-width="1.25" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </path>
+                                            </svg>
+                                            <span>info@avvr.nl</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="footer-social-phone">
+                                        <a href="tel:+918479825206">
+
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 17.5H12.01H12ZM8.2 22H15.8C16.9201 22 17.4802 22 17.908 21.782C18.2843 21.5903 18.5903 21.2843 18.782 20.908C19 20.4802 19 19.9201 19 18.8V5.2C19 4.07989 19 3.51984 18.782 3.09202C18.5903 2.71569 18.2843 2.40973 17.908 2.21799C17.4802 2 16.9201 2 15.8 2H8.2C7.0799 2 6.51984 2 6.09202 2.21799C5.71569 2.40973 5.40973 2.71569 5.21799 3.09202C5 3.51984 5 4.0799 5 5.2V18.8C5 19.9201 5 20.4802 5.21799 20.908C5.40973 21.2843 5.71569 21.5903 6.09202 21.782C6.51984 22 7.07989 22 8.2 22ZM12.5 17.5C12.5 17.7761 12.2761 18 12 18C11.7239 18 11.5 17.7761 11.5 17.5C11.5 17.2239 11.7239 17 12 17C12.2761 17 12.5 17.2239 12.5 17.5Z"
+                                                    stroke="#041914" stroke-width="1.25" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </path>
+                                            </svg>
+                                            <span>+91 8479 8252 06</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="footer-social-linkedin">
+                                        <a href="#" target="_blank">
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24">
+                                                <path
+                                                    d="M20.9,20.9H17.166V15.053c0-1.394-.028-3.188-1.944-3.188-1.945,0-2.242,1.517-2.242,3.085V20.9H9.249V8.877h3.584v1.639h.048a3.932,3.932,0,0,1,3.538-1.942c3.78,0,4.479,2.488,4.479,5.726v6.6ZM5.036,7.232A2.167,2.167,0,1,1,7.2,5.064,2.165,2.165,0,0,1,5.036,7.232ZM6.906,20.9H3.165V8.877H6.906Z">
+                                                </path>
+                                            </svg>
+                                            <span>LinkedIn</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="footer-social-instagram">
+                                        <a href="#" target="_blank">
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21.94,7.88a7.59,7.59,0,0,0-.46-2.43,4.85,4.85,0,0,0-1.16-1.77,4.85,4.85,0,0,0-1.77-1.16,7.59,7.59,0,0,0-2.43-.46C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.59,7.59,0,0,0-2.43.46A4.85,4.85,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.85,4.85,0,0,0,1.77,1.16,7.59,7.59,0,0,0,2.43.46C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.59,7.59,0,0,0,2.43-.46,5.19,5.19,0,0,0,2.93-2.93,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.33,3.33,0,0,1-1.9,1.9,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.61,5.61,0,0,1,6.1,19.8a3.33,3.33,0,0,1-1.9-1.9A5.61,5.61,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.61,5.61,0,0,1,4.2,6.1,3.33,3.33,0,0,1,6.1,4.2,5.61,5.61,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34,3.33,3.33,0,0,1,1.9,1.9A5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16Z">
+                                                </path>
+                                                <path
+                                                    d="M12,6.86A5.14,5.14,0,1,0,17.14,12,5.14,5.14,0,0,0,12,6.86Zm0,8.47A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z">
+                                                </path>
+                                                <path d="M17.34,5.46a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Z">
+                                                </path>
+                                            </svg>
+                                            <span>Instagram</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="container-lg">
+                        <ul>
+                            <li><a href="#">© 2024 Real Estate Specialists.</a></li>
+                            <li><a href="#">code by <strong>Provat Singh</strong></a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </footer>
+            <!-- ============== footer End ============== -->
+
+        </div>
+    </div>
+    <!-- ============ scroll-container End ============== -->
+
+
+    <!-- ====================== Js file ================== -->
+    <script type="text/javascript" src="js/jquery.min.js" defer></script>
+    <script type="text/javascript" src="js/bootstrap.js" defer></script>
+    <script type="text/javascript" src="js/masonry.min.js" defer></script>
+    <script type="text/javascript" src="js/barba.js" defer></script>
+    <script type="text/javascript" src="js/gsap.js" defer></script>
+    <script type="text/javascript" src="js/locomotive.js" defer></script>
+    <script type="text/javascript" src="js/imagesloaded.min.js" defer></script>
+    <script type="text/javascript" src="js/scroll-trigger.js" defer></script>
+    <script type="text/javascript" src="js/swiper.js" defer></script>
+    <script type="text/javascript" src="js/locomotive-init.js" defer></script>
+    <script type="text/javascript" src="js/custom-slider.js" defer></script>
+    <script type="text/javascript" src="js/custom-js.js" defer></script>
+    <script type="text/javascript" src="js/horizontalScollSec.js" defer></script>
+    <script type="text/javascript" src="js/header-footer.js" defer></script>
+    <script type="text/javascript" src="js/custom-jq.js" defer></script>
+
+</body>
+
+</html>
